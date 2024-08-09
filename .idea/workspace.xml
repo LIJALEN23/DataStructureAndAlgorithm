@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e236cda-c72d-4265-a9e3-7c0569889e53" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaImplement.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/graph/notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/hashtable/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/hashtable/OpenAddressingHashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/hashtable/SeparateChainingHashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/hashtable/notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/hashtable/test/OpenAddressingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/hashtable/test/SeparateChainingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/lineartable/MyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/lineartable/linkedlist/myLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/lineartable/notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/lineartable/queue/MyArrayDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/lineartable/queue/test/MyArrayDequeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/search/notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/sort/notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/special/disjointsetunion/DisjointSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/special/disjointsetunion/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/string/notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/tree/binarytree/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/tree/binarytree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/tree/binarytree/RedBlackTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/tree/binarytree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/tree/binarytree/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/tree/heap/notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/tree/mwaytree/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/tree/notes.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2kQ22yXsiwGdqqFxU7w7etXktyG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/JORDAN/A_SPECAIL_DIRECTORY/Career/Basic/DataStructureAnd Algorithm/JavaImplement/src/com/code/tree/binarytree",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JORDAN\A_SPECAIL_DIRECTORY\Career\Basic\DataStructureAnd Algorithm\JavaImplement\src\com\code\tree\binarytree" />
+      <recent name="C:\Users\JORDAN\A_SPECAIL_DIRECTORY\Career\Basic\DataStructureAnd Algorithm\JavaImplement\src\com\code\hashtable\test" />
+      <recent name="C:\Users\JORDAN\A_SPECAIL_DIRECTORY\Career\Basic\DataStructureAnd Algorithm\JavaImplement\lib" />
+      <recent name="C:\Users\JORDAN\A_SPECAIL_DIRECTORY\Career\Basic\DataStructureAnd Algorithm\JavaImplement\src\com\code\special\disjointsetunion" />
+      <recent name="C:\Users\JORDAN\A_SPECAIL_DIRECTORY\Career\Basic\DataStructureAnd Algorithm\JavaImplement\src\com\code\string" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e236cda-c72d-4265-a9e3-7c0569889e53" name="Changes" comment="" />
+      <created>1723201277418</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723201277418</updated>
+      <workItem from="1723201278450" duration="707000" />
+      <workItem from="1723202207574" duration="486000" />
+      <workItem from="1723202702424" duration="147000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
