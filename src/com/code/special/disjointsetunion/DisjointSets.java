@@ -56,13 +56,9 @@ public class DisjointSets {
 
         if (rank[root1] > rank[root2]) {
             parent[root2] = root1;
-        }
-
-        else if (rank[root1] < rank[root2]) {
+        } else if (rank[root1] < rank[root2]) {
             parent[root1] = root2;
-        }
-
-        else {
+        } else {
             parent[root1] = root2;
             rank[root2] += 1;   //这两个树一样高，将root1连接到root2上，则root2的高度会增加1
         }
