@@ -5,42 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e236cda-c72d-4265-a9e3-7c0569889e53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaImplement.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-4.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/graph/notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/hashtable/HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/hashtable/OpenAddressingHashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/hashtable/SeparateChainingHashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/hashtable/notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/hashtable/test/OpenAddressingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/hashtable/test/SeparateChainingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/lineartable/MyArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/lineartable/linkedlist/myLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/lineartable/notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/lineartable/queue/MyArrayDeque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/lineartable/queue/test/MyArrayDequeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/search/notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/sort/notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/special/disjointsetunion/DisjointSets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/special/disjointsetunion/note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/string/notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/tree/binarytree/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/tree/binarytree/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/tree/binarytree/RedBlackTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/tree/binarytree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/tree/binarytree/note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/tree/heap/notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/tree/mwaytree/note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/tree/notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/graph/AbstractGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/graph/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/graph/GraphAdjList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/graph/GraphException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/graph/GraphMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/graph/GraphTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/sort/Bubble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/sort/Insert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/sort/Select.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/sort/Shell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/sort/SortHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/sort/SortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/code/sort/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/code/sort/notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/code/special/disjointsetunion/DisjointSets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/code/special/disjointsetunion/DisjointSets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,22 +52,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/JORDAN/A_SPECAIL_DIRECTORY/Career/Basic/DataStructureAnd Algorithm/JavaImplement/src/com/code/tree/binarytree",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.GraphMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/JORDAN/A_SPECAIL_DIRECTORY/CODE/Java/CS 61B&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\JORDAN\A_SPECAIL_DIRECTORY\Career\Basic\DataStructureAnd Algorithm\JavaImplement\src\com\code\tree\binarytree" />
@@ -96,6 +78,40 @@
       <recent name="C:\Users\JORDAN\A_SPECAIL_DIRECTORY\Career\Basic\DataStructureAnd Algorithm\JavaImplement\src\com\code\special\disjointsetunion" />
       <recent name="C:\Users\JORDAN\A_SPECAIL_DIRECTORY\Career\Basic\DataStructureAnd Algorithm\JavaImplement\src\com\code\string" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.SortTest">
+    <configuration name="GraphMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.code.graph.GraphMatrix" />
+      <module name="JavaImplement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.code.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.code.sort.SortTest" />
+      <module name="JavaImplement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.code.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SortTest" />
+        <item itemvalue="Application.GraphMatrix" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -115,11 +131,41 @@
       <workItem from="1723201278450" duration="707000" />
       <workItem from="1723202207574" duration="486000" />
       <workItem from="1723202702424" duration="147000" />
+      <workItem from="1723202982197" duration="15000" />
+      <workItem from="1723215661485" duration="7000" />
+      <workItem from="1724467204033" duration="1899000" />
+      <workItem from="1724513582468" duration="2657000" />
+      <workItem from="1724553357555" duration="7475000" />
+      <workItem from="1724563099301" duration="2643000" />
+      <workItem from="1724566116551" duration="697000" />
+      <workItem from="1724570297891" duration="1885000" />
+      <workItem from="1724596871009" duration="602000" />
+      <workItem from="1724633401389" duration="2000" />
+      <workItem from="1724746122089" duration="3000" />
+      <workItem from="1724752912883" duration="5000" />
+      <workItem from="1724765200614" duration="16000" />
+      <workItem from="1724854871901" duration="3581000" />
+      <workItem from="1724908172450" duration="1050000" />
+      <workItem from="1724919804727" duration="240000" />
+      <workItem from="1724920083116" duration="1795000" />
+      <workItem from="1724921965509" duration="3910000" />
+      <workItem from="1724943232021" duration="1538000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
