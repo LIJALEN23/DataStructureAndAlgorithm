@@ -1,20 +1,20 @@
 package com.code.tree.binarytree;
 
-public interface BinaryTree<T extends Comparable<T>> {
+public interface BinaryTree<K extends Comparable<K>, V> {
 
-    void insert(T val);
+    void insert(K key, V val);
 
-    boolean delete(T val);
+    void delete(K val);
 
-    boolean contains(T val);
+    boolean contains(K val);
 
-    T findMin();
+    Node<K, V> findMin(Node<K, V> node);
 
-    T findMax();
+    Node<K, V> findMax(Node<K, V> node);
+
+    V getVal(K key);
 
     void clear();
-
-    int size();
 
     boolean isEmpty();
 

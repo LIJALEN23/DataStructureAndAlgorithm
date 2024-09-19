@@ -5,22 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e236cda-c72d-4265-a9e3-7c0569889e53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/code/graph/AbstractGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/graph/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/graph/GraphAdjList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/graph/GraphException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/graph/GraphMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/graph/GraphTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/sort/Bubble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/sort/Insert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/sort/Select.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/sort/Shell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/sort/SortHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/code/sort/SortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/tree/binarytree/AVLNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/tree/binarytree/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/tree/binarytree/AbstractNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/tree/binarytree/BinaryTreeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/tree/binarytree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/tree/binarytree/RBNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/tree/binarytree/test/AVLTreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/tree/binarytree/test/BinarySearchTreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/code/tree/binarytree/test/RedBlackTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/code/sort/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/code/sort/notes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/code/special/disjointsetunion/DisjointSets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/code/special/disjointsetunion/DisjointSets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/code/tree/binarytree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/code/tree/binarytree/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/code/tree/binarytree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/code/tree/binarytree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/code/tree/binarytree/RedBlackTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/code/tree/binarytree/RedBlackTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/code/tree/binarytree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/code/tree/binarytree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/code/tree/binarytree/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/code/tree/binarytree/note.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,24 +51,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.GraphMatrix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/JORDAN/A_SPECAIL_DIRECTORY/CODE/Java/CS 61B&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.AVLTreeTest.executor": "Run",
+    "Application.BinarySearchTree.executor": "Run",
+    "Application.BinarySearchTreeTest.executor": "Run",
+    "Application.GraphMatrix.executor": "Run",
+    "Application.RedBlackTree.executor": "Debug",
+    "Application.RedBlackTreeTest.executor": "Run",
+    "Application.SortTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/JORDAN/A_SPECAIL_DIRECTORY/CODE/Java/CS 61B",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "Code Search",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\JORDAN\A_SPECAIL_DIRECTORY\Career\Basic\DataStructureAnd Algorithm\JavaImplement\src\com\code\tree\binarytree" />
@@ -79,13 +85,13 @@
       <recent name="C:\Users\JORDAN\A_SPECAIL_DIRECTORY\Career\Basic\DataStructureAnd Algorithm\JavaImplement\src\com\code\string" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortTest">
-    <configuration name="GraphMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.code.graph.GraphMatrix" />
+  <component name="RunManager" selected="Application.RedBlackTreeTest">
+    <configuration name="AVLTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.code.tree.binarytree.test.AVLTreeTest" />
       <module name="JavaImplement" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.code.graph.*" />
+          <option name="PATTERN" value="com.code.tree.binarytree.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +99,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.code.sort.SortTest" />
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.code.tree.binarytree.BinarySearchTree" />
       <module name="JavaImplement" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.code.sort.*" />
+          <option name="PATTERN" value="com.code.tree.binarytree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.code.tree.binarytree.test.BinarySearchTreeTest" />
+      <module name="JavaImplement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.code.tree.binarytree.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedBlackTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.code.RedBlackTree" />
+      <module name="JavaImplement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedBlackTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.code.tree.binarytree.test.RedBlackTreeTest" />
+      <module name="JavaImplement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.code.tree.binarytree.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,8 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SortTest" />
-        <item itemvalue="Application.GraphMatrix" />
+        <item itemvalue="Application.RedBlackTreeTest" />
+        <item itemvalue="Application.RedBlackTree" />
+        <item itemvalue="Application.AVLTreeTest" />
+        <item itemvalue="Application.BinarySearchTreeTest" />
+        <item itemvalue="Application.BinarySearchTree" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +198,49 @@
       <workItem from="1724920083116" duration="1795000" />
       <workItem from="1724921965509" duration="3910000" />
       <workItem from="1724943232021" duration="1538000" />
+      <workItem from="1724945284726" duration="411000" />
+      <workItem from="1724985949399" duration="3870000" />
+      <workItem from="1725028658340" duration="3000" />
+      <workItem from="1725032522801" duration="2741000" />
+      <workItem from="1725103166314" duration="308000" />
+      <workItem from="1725111373033" duration="5789000" />
+      <workItem from="1725157373179" duration="2022000" />
+      <workItem from="1725159428340" duration="31000" />
+      <workItem from="1725239946831" duration="4000" />
+      <workItem from="1725346485189" duration="7000" />
+      <workItem from="1725424127730" duration="161000" />
+      <workItem from="1725424349872" duration="1042000" />
+      <workItem from="1725428208342" duration="24000" />
+      <workItem from="1725429663859" duration="800000" />
+      <workItem from="1725430474002" duration="11240000" />
+      <workItem from="1725443060781" duration="46000" />
+      <workItem from="1725443132779" duration="3587000" />
+      <workItem from="1725451948112" duration="10000" />
+      <workItem from="1725451973928" duration="4210000" />
+      <workItem from="1725463346815" duration="107000" />
+      <workItem from="1725463492101" duration="1306000" />
+      <workItem from="1725501982389" duration="5000" />
+      <workItem from="1725510371798" duration="1492000" />
+      <workItem from="1725517065352" duration="1640000" />
+      <workItem from="1725598742958" duration="657000" />
+      <workItem from="1725604151145" duration="1069000" />
+      <workItem from="1725605919410" duration="2000" />
+      <workItem from="1725606572565" duration="18000" />
+      <workItem from="1725612200565" duration="356000" />
+      <workItem from="1725690973585" duration="6471000" />
+      <workItem from="1725703102699" duration="8000" />
+      <workItem from="1725713964030" duration="334000" />
+      <workItem from="1725842793079" duration="34000" />
+      <workItem from="1726027654122" duration="597000" />
+      <workItem from="1726031310492" duration="1729000" />
+      <workItem from="1726108365498" duration="3438000" />
+      <workItem from="1726124994877" duration="5000" />
+      <workItem from="1726639103659" duration="8866000" />
+      <workItem from="1726653488015" duration="12766000" />
+      <workItem from="1726666674408" duration="157000" />
+      <workItem from="1726667230375" duration="87000" />
+      <workItem from="1726711165284" duration="5471000" />
+      <workItem from="1726719291435" duration="4222000" />
     </task>
     <servers />
   </component>
@@ -161,7 +252,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -169,5 +272,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.code.tree.binarytree.RBNode" memberName="left" />
+        <PinnedItemInfo parentTag="com.code.tree.binarytree.RBNode" memberName="right" />
+        <PinnedItemInfo parentTag="com.code.tree.binarytree.RBNode" memberName="color" />
+        <PinnedItemInfo parentTag="com.code.tree.binarytree.RedBlackTree" memberName="root" />
+        <PinnedItemInfo parentTag="com.code.tree.binarytree.RBNode" memberName="val" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="tree1" />
+        <watch expression="((RBNode)((RBNode)tree1.root).left).right" custom="com.code.tree.binarytree.RBNode" />
+        <watch expression="((RBNode)((RBNode)tree1.root).left).right" custom="com.code.tree.binarytree.RBNode" />
+        <watch expression="((RBNode)((RBNode)tree1.root).left).right" custom="com.code.tree.binarytree.RBNode" />
+        <watch expression="((RBNode)((RBNode)tree1.root).left).right" custom="com.code.tree.binarytree.RBNode" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

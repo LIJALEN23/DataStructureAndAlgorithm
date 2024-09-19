@@ -1,93 +1,136 @@
 package com.code.tree.binarytree;
 
-public class BinarySearchTree<T extends Comparable<T>> implements BinaryTree<T> {
+public class BinarySearchTree<K extends Comparable<K>, V> implements BinaryTree<K, V> {
 
-    private TreeNode<T> root;
-
-    private int size;
+    protected Node<K, V> root;
 
     public BinarySearchTree() {
         root = null;
-        size = 0;
     }
 
     @Override
-    public void insert(T val) {
-            root = insert(root, val);
+    public void insert(K key, V val) {
+        root = insert(root, key, val);
     }
 
-    private TreeNode<T> insert(TreeNode<T> node, T val) {
-        if (node == null) {
-            size++;
-            return new TreeNode<>(val);
+    private Node<K, V> insert(Node<K, V> current, K key, V val) {
+        if (current == null) {
+            return new TreeNode<>(key, val);
         }
 
-        int cmp = node.data.compareTo(val);
+        int cmp = current.getKey().compareTo(key);
         if (cmp > 0) {
-            return insert(node.left, val);
+            current.setLeft(insert(current.getLeft(), key, val));
         } else if (cmp < 0){
-            return insert(node.right, val);
+            current.setRight(insert(current.getRight(), key, val));
         }
 
-        return node;
+        return current;
     }
 
     @Override
-    public boolean delete(T val) {
-        return false;
+    public void delete(K key) {
+        if (isEmpty()) throw new BinaryTreeException("The tree is empty!");
+        root = delete(root, key);
+    }
+
+    private Node<K, V> delete(Node<K, V> current, K key) {
+        if (current == null) return null;
+
+        int cmp = current.getKey().compareTo(key);
+        if (cmp > 0) {
+            current.setLeft(delete(current.getLeft(), key));
+        } else if (cmp < 0) {
+            current.setRight(delete(current.getRight(), key));
+        } else {
+            if (current.getRight() == null && current.getLeft() == null) {
+                current = null;
+            } else if (current.getRight() != null && current.getLeft() != null) {
+                var left = current.getLeft();
+                var right = current.getRight();
+                current = findMin(current.getRight());
+                current.setLeft(left);
+                current.setRight(delete(current.getRight(), current.getKey()));
+            } else {
+                current = (current.getLeft() == null ? current.getRight() : current.getLeft());
+            }
+        }
+
+        return current;
     }
 
     @Override
-    public boolean contains(T val) {
-        if (isEmpty()) {
-            throw new NullPointerException();
-        }
-
+    public boolean contains(K val) {
+        if (isEmpty()) throw new BinaryTreeException("The tree is empty!");
         return contains(root, val);
     }
 
-    private boolean contains(TreeNode<T> node, T val) {
-        if (node == null) {
+    private boolean contains(Node<K, V> current, K key) {
+        if (current == null) {
             return false;
         }
 
-        if (node.data.compareTo(val) == 0) {
+        if (current.getKey().compareTo(key) == 0) {
             return true;
-        } else if (node.data.compareTo(val) < 0) {
-            return contains(node.right, val);
+        } else if (current.getKey().compareTo(key) < 0) {
+            return contains(current.getRight(), key);
         } else {
-            return contains(node.left, val);
+            return contains(current.getLeft(), key);
         }
     }
 
     @Override
-    public T findMin() {
-        return null;
+    public Node<K, V> findMin(Node<K, V> current) {
+        if (isEmpty()) throw new BinaryTreeException("The tree is empty!");
+
+        if (current.getLeft() == null) return current;
+
+        return findMin(current.getLeft());
     }
 
     @Override
-    public T findMax() {
-        return null;
+    public Node<K, V> findMax(Node<K, V> current) {
+        if (isEmpty()) throw new BinaryTreeException("The tree is empty!");
+
+        if (current.getRight() == null) return current;
+
+        return findMax(current.getRight());
+    }
+
+    @Override
+    public V getVal(K key) {
+        return getVal(root, key);
+    }
+
+    private V getVal(Node<K, V> current, K key) {
+        if (current == null) return null;
+
+        int cmp = current.getKey().compareTo(key);
+        if (cmp > 0) return getVal(current.getLeft(), key);
+        else if (cmp < 0) return getVal(current.getRight(), key);
+        else return current.getVal();
     }
 
     @Override
     public void clear() {
         root = null;
-        size = 0;
     }
 
     @Override
-    public int size() {
-        return size;
-    }
-
-    @Override
-    public boolean isEmpty() {
-        return size() == 0;
-    }
+    public boolean isEmpty() {return root == null; }
 
     @Override
     public void InOrderTraversal() {
-
+        if (isEmpty()) throw new BinaryTreeException("The tree is empty!");
+        InOrderTraversal(root);
     }
+
+    private void InOrderTraversal(Node<K, V> current) {
+        if (current == null) return;
+
+        InOrderTraversal(current.getLeft());
+        System.out.print(current.getVal() + " ");
+        InOrderTraversal(current.getRight());
+    }
+
 }
