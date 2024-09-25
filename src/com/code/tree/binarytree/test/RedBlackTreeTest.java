@@ -1,26 +1,21 @@
 package com.code.tree.binarytree.test;
 
 import com.code.tree.binarytree.RedBlackTree;
+import org.junit.Test;
+
+import static org.junit.Assert.*;
 
 public class RedBlackTreeTest {
-    public static void main(String... args)  {
-        RedBlackTree<Integer, Integer> tree1 = new RedBlackTree<>();
+    private RedBlackTree<Integer, Integer> tree = new RedBlackTree<>();
 
+    @Test
+    public void testInsert() {
         for (int i = 1; i <= 10; i++) {
-            tree1.insert(i, i);
+            tree.insert(i, i);
         }
 
-        tree1.InOrderTraversal();
-        System.out.println();
-
-        tree1.delete(1);
-        tree1.delete(2);
-        tree1.InOrderTraversal();
-        System.out.println();
-
-        tree1.delete(3);
-        tree1.InOrderTraversal();
-
-
+        for (int i = 1; i <= 10; i++) {
+            assertEquals(i, (int) tree.getVal(i));
+        }
     }
 }
